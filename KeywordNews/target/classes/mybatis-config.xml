@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+		<typeAlias type="com.androidserver.www.vo.People" alias="people"/>
+		<typeAlias type="com.androidserver.www.vo.Keyword" alias="keyword"/>
+	</typeAliases>
+	<mappers>
+		<mapper resource="mapper/peopleMapper.xml" />
+		<mapper resource="mapper/keywordMapper.xml" />
+	</mappers>
+</configuration>
